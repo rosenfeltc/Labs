@@ -40,7 +40,7 @@ public class Sudoku
 		
 		while(index < n)
 		{
-			// Obtain the two random variables form 1 to 9
+			// Obtain the two random variables from 1 to 9
 			randomNumber1 = generator.nextInt();
 			randomNumber1 = Math.abs(randomNumber1);
 			randomNumber1 %= upperBound;
